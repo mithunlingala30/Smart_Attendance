@@ -1,16 +1,40 @@
-# React + Vite
+# Smart Attendance System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, React-based faculty portal for managing student attendance with unique session tracking and manual email alert simulations.
 
-Currently, two official plugins are available:
+## Features
+- **Faculty Dashboard**: Manage subjects and students.
+- **Dynamic Attendance**: Track attendance per session (supports multiple sessions per day).
+- **Manual Alerts**: Send simulated email alerts to students with low attendance.
+- **Premium UI**: Clean, responsive interface with beautiful styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## How to Execute
 
-## React Compiler
+### 1. Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2. Clone the Repository
+```bash
+git clone https://github.com/mithunlingala30/Smart_Attendance.git
+cd Smart_Attendance
+```
 
-## Expanding the ESLint configuration
+### 3. Install Dependencies
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 4. Run the Development Server
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`.
+
+## Commands
+| Command | Description |
+| :--- | :--- |
+| `npm run dev` | Starts the development server |
+| `npm run build` | Builds the app for production |
+| `npm run lint` | Lints the codebase |
+| `npm run preview` | Locally dynamic previews for production build |
